@@ -2,15 +2,15 @@ package com.example.quotaku;
 
 import static android.content.ContentValues.TAG;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -78,7 +78,7 @@ public class AddQuote extends AppCompatActivity {
         //instantiate firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference quotesRef = database.getReference("quotes");
-        quotesRef.setValue("Inside Quotes Function");
+
         //write data to firebase
         String key = quotesRef.push().getKey();
         map.put("key", key);
