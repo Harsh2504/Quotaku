@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87698141204",
+    "project_id": "quotaku-3f1fe",
+    "storage_bucket": "quotaku-3f1fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87698141204:android:c97c50b22ec79c9dc93701",
+        "android_client_info": {
+          "package_name": "com.example.quotaku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl-24sO5BtBuytkywAhGOC4P-zCNfM9tY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
